@@ -1,2 +1,54 @@
 # scheduler
 05 Third-Party APIs: Work Day Scheduler
+
+## Description
+```
+Create a simple calendar application that allows a user to save events for each hour of a typical working day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+```
+
+## User Story via Client
+
+```
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
+```
+
+## Acceptance Criteria via Client
+
+```
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
+```
+### Links
+
+
+[Deployed Site](https://catxcoding.github.io/scheduler)
+
+[Repository](https://github.com/catxcoding/scheduler)
+
+
+
+
+
+### Resources Used
+
+```
+* Xpert Leaning Assistant
+* Office Hours before/after class
+* 
+* W3Schools
+* MDN
+```
