@@ -54,3 +54,29 @@ textareaEl[5].textContent = localStorage.getItem("2PM");
 textareaEl[6].textContent = localStorage.getItem("3PM");
 textareaEl[7].textContent = localStorage.getItem("4PM");
 textareaEl[8].textContent = localStorage.getItem("5PM");
+
+// Get the current hour
+let currentHour = new Date().getHours();
+
+// Get all time blocks
+let timeBlocks = document.querySelectorAll(".time-block");
+
+// Function to highlight the current time block
+function highlightCurrentTimeBlock() {
+  timeBlocks.forEach((block, index) => {
+    let blockHour = 9 + index;
+
+    block.classList.remove('past', 'present', 'future');
+
+    if (blockHour < currentHour) {
+      block.classList.add('past');
+    } else if (blockHour === currentHour) {
+      block.classList.add('present');
+    } else {
+      block.classList.add('future');
+    }
+  });
+}
+
+// Call the function
+highlightCurrentTimeBlock();
