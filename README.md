@@ -39,7 +39,7 @@ THEN the saved events persist
 
 [Repository](https://github.com/catxcoding/scheduler)
 
-
+![Screenshot GIF](assets/screenshot.gif)
 
 
 
@@ -48,7 +48,7 @@ THEN the saved events persist
 ```
 * Xpert Leaning Assistant
 * Office Hours before/after class
-* 
+* Tutoring
 * W3Schools
 * MDN
 ```
